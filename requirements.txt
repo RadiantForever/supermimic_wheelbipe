@@ -1,0 +1,5 @@
+# 本仓库不自带 Isaac Lab / Isaac Sim，必须使用 wheeled-legged_RL 已经装好的那一套环境：
+#   Isaac Sim 4.5/5.1 + Isaac Lab 2.x + torch 2.7 (cu128)
+# 下面只列出额外依赖（通常已经被 Isaac Lab 拉进来）。
+torch>=2.4
+numpy>=1.23

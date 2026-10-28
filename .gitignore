@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Isaac / 训练产物
+logs/
+data/
+*.pt
+*.pth
+*.onnx
+*.npz
+*.mp4
+
+# 图片：默认忽略，但 docs/ 里的配图要进仓库
+*.png
+*.jpg
+!docs/*.png
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# 本地临时
+dist/
+tmp/
+*.log
+
+# 二进制资产：由 tools/usd2mjcf.py 从 USD 重新导出，不要进仓库（单个最大 22 MB）
+assets/mujoco/meshes/
+*.obj
+*.stl
+*.STL
+
+# 生成产物：usd2mjcf.py 导出的 MJCF 和 mesh
+assets/

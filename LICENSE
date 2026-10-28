@@ -1,0 +1,35 @@
+MIT License
+
+Copyright (c) 2026 RadiantForever
+
+--------------------------------------------------------------------------------
+本项目的代码与文档基于以下两个 MIT 许可项目，其原始版权声明在此保留：
+
+  wheeled-legged_RL
+  Copyright (c) 2026 SCUTRobotLab
+  https://github.com/scutrobotlab/wheeled-legged_RL
+  → 本项目的机器人资产（USD）、执行器配置、动作语义与奖励框架来源于此。
+
+  SuperMimic (supermimic_vibed)
+  Copyright (c) 2026 ETH Zurich, Chong Zhang
+  https://github.com/zita-ch/supermimic_vibed
+  → 本项目的训练范式（可微世界模型 + 想象 rollout + BPTT）来源于此。
+--------------------------------------------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
